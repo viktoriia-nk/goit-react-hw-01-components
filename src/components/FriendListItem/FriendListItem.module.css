@@ -1,0 +1,39 @@
+.item {
+    margin-top: 16px;
+    position: relative;
+    width: 300px;
+}
+
+.item:not(:last-child){
+    border-bottom: 1px solid grey;
+   
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.statusOn {
+    background-color: rgb(154, 203, 154);
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+
+}
+
+.statusOf{
+    background-color: rgb(213, 115, 115);
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+}
+

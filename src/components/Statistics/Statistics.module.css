@@ -1,0 +1,35 @@
+section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    width: 300px;
+    height: 60px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    font-size: 18px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.percentage {
+    font-size: 16px;
+
+}
+
